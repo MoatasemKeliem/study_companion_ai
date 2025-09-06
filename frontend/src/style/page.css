@@ -1,0 +1,33 @@
+#contentPage {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.contentDiv {
+    /* border: 1px solid green; */
+    width: 70vw;
+    box-shadow: 10px 10px 10px 10px lightgray;
+    border-radius: 20px;
+    margin-bottom: 5em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentDiv h2 {
+    margin-bottom: 1em;
+}
+
+.contentDiv .text {
+    max-width: 65vw;
+    text-align: center;
+}
+
+.date {
+    margin: 2em 0;
+}

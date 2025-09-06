@@ -1,0 +1,56 @@
+.page {
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    border-radius: 10px;
+    margin-top: 5em;
+    color: white;
+    box-shadow: 20px 20px 20px 2cap lightgray;
+    text-align: center;
+}
+
+.from label {
+    font-weight: 600;
+}
+
+.from input {
+    margin-top: 0.3em;
+}
+
+.form button {
+    width: 15em;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    border-radius: 10px;
+    margin-top: 5em;
+    /* background-color: #457b9d; */
+    height: 15em;
+    box-shadow: 20px 20px 20px 2cap lightgray;
+    text-align: center;
+}
+
+.formLogin label {
+    font-weight: 600;
+}
+
+.formLogin input {
+    margin-top: 0.3em;
+
+}

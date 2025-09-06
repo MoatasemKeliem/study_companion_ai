@@ -1,0 +1,28 @@
+nav {
+    /* border: 1px solid black; */
+    display: flex;
+    height: 5em;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    background-color: #FDFEFE;
+    box-shadow: 2px 2px 2px 2px peachpuff;
+}
+
+nav .uList {
+    display: flex;
+}
+
+.uList .listItem {
+    margin-right: 2em;
+    list-style: none;
+}
+
+.uList .listItem .link {
+    text-decoration: none;
+}
+
+.active {
+    border: 3px solid peachpuff;
+    padding: 0.2em;
+}

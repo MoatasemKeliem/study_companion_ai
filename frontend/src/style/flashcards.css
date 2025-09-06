@@ -1,0 +1,36 @@
+.date {
+    margin: 2em 0;
+}
+
+.buttons {
+    margin: 0 0.5em;
+}
+
+#contentPageFlashcardQuestions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.contentFlashcardQuestions {
+    width: 40vw;
+    box-shadow: 10px 10px 10px 10px lightgray;
+    border-radius: 20px;
+    margin-bottom: 5em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentDivFlashcardQuestions .textFlashcardQuestions {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.buttonsQuestion {
+    margin: 1em 0;
+}

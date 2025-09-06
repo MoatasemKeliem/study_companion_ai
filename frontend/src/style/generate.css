@@ -1,0 +1,57 @@
+#generatePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10em 0 20em 0;
+    flex-direction: column;
+}
+
+#generatePage h2 {
+    margin-bottom: 1.5em;
+}
+
+/* SUMMARY */
+
+#generateForm {
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 20px 20px 20px 20px lightgray;
+    border-radius: 20px;
+}
+
+#generateForm input {
+    margin: 1em 0 1em 1em;
+}
+
+/* QUESTION */
+
+#generateQuestion {
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 20px 20px 20px 20px lightgray;
+    border-radius: 20px;
+}
+
+#generateQuestion input {
+    margin: 1em 0 1em 7em;
+}
+
+
+
+/* FLASHCARD  */
+#generateFlashcard {
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 20px 20px 20px 20px lightgray;
+    border-radius: 20px;
+}
+
+#generateFlashcard input {
+    margin: 1em 0 1em 4em;
+}
