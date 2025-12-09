@@ -12,6 +12,7 @@ const UserFlashcard = () => {
         getFlashcardsByUser()
     }, [])
 
+    console.log(userAllFlashcards)
 
     return (
         <div id='contentPageFlashcardQuestions'>
